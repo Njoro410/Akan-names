@@ -1,6 +1,4 @@
 function findAkan() {
-    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var date = document.getElementById("date").value;
     var month = document.getElementById("month").value;
     var year = document.getElementById("year").value;
@@ -26,12 +24,49 @@ function findAkan() {
 
     if (genn === "Female") {
         function feMale() {
-            
-            alert(dow.toFixed());
-
+            var d = dow.toFixed();
+            var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+            switch (d) {
+                case '2':
+                    alert(female[0]);
+                    break;
+            }
+            switch (d) {
+                case '3':
+                    alert(female[1]);
+                    break;
+            }
+            switch (d) {
+                case '4':
+                    alert(female[2]);
+                    break;
+            }
+            switch (d) {
+                case '5':
+                    alert(female[3]);
+                    break;
+            }
+            switch (d) {
+                case '6':
+                    alert(female[4]);
+                    break;
+            }
+            switch (d) {
+                case '0':
+                    alert(female[5]);
+                    break;
+            }
+            switch (d) {
+                case '1':
+                    alert(female[6]);
+                    break;
+            }
+           
         }
+        feMale();
     }
-
-   feMale();
+    
+    
+    
     
 }
