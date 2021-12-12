@@ -32,3 +32,13 @@
   .year {
     width: 100px;
   }
+  .btn {
+    width: 100%;
+    background: #17202A ;
+  }
+  .btn:hover {
+    color: #17202A ;
+    transition: 0.5s;
+    background: #F4D03F;
+  }
+  
