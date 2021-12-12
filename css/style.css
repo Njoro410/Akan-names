@@ -28,6 +28,16 @@
 .title {
     text-align: center;
 }
+.rtitle1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.rtitle2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .date {
   width: 50px;
 }
