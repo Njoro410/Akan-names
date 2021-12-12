@@ -23,3 +23,12 @@
     background: #d7dbdd;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
+.date {
+    width: 50px;
+  }
+  .month {
+    width: 50px;
+  }
+  .year {
+    width: 100px;
+  }
