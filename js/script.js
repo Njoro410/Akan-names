@@ -17,10 +17,10 @@ function findAkan() {
     var dd = parseInt(date);
     var mm = parseInt(month);
     var y = year.slice(2, 4);
-    var yy = parseInt(y);  
+    var yy = parseInt(y);
     var c = year.slice(0, 2);
     var cc = parseInt(c);
-    var dow = ( ( (cc/4)-2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd ) % 7;
+    var dow = (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
 
     if (genn === "Female") {
         function feMale() {
@@ -30,38 +30,33 @@ function findAkan() {
                 case '2':
                     alert(female[0]);
                     break;
-            }
-            switch (d) {
+            
                 case '3':
                     alert(female[1]);
                     break;
-            }
-            switch (d) {
+
                 case '4':
                     alert(female[2]);
                     break;
-            }
-            switch (d) {
+
                 case '5':
                     alert(female[3]);
                     break;
-            }
-            switch (d) {
+
                 case '6':
                     alert(female[4]);
                     break;
-            }
-            switch (d) {
+
                 case '0':
                     alert(female[5]);
                     break;
-            }
-            switch (d) {
+
                 case '1':
                     alert(female[6]);
                     break;
             }
-           
+            
+
         }
         feMale();
     }
@@ -73,33 +68,27 @@ function findAkan() {
                 case '2':
                     alert(male[0]);
                     break;
-            }
-            switch (d) {
+
                 case '3':
                     alert(male[1]);
                     break;
-            }
-            switch (d) {
+
                 case '4':
                     alert(male[2]);
                     break;
-            }
-            switch (d) {
+
                 case '5':
                     alert(male[3]);
                     break;
-            }
-            switch (d) {
+
                 case '6':
                     alert(male[4]);
                     break;
-            }
-            switch (d) {
+
                 case '0':
                     alert(male[5]);
                     break;
-            }
-            switch (d) {
+
                 case '1':
                     alert(male[6]);
                     break;
@@ -108,7 +97,7 @@ function findAkan() {
 
         male();
     }
-    
-    
-    
+
+
+
 }
