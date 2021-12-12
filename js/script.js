@@ -7,7 +7,7 @@ function findAkan() {
 
     var sGender = document.getElementById("gen");
     var genn = sGender.elements["gender"].value;
-    alert(genn);
+
 
     if (date <= 0 || date > 31) {
         alert("Put a valid date");
@@ -15,7 +15,20 @@ function findAkan() {
     if (month <= 0 || month > 12) {
         alert("put a valid month")
     };
-    function male() {
 
+    var dd = parseInt(date);
+    var mm = parseInt(month);
+    var yy = parseInt(year);  
+        
+    
+
+    if (genn === "Female") {
+        function feMale() {
+            
+            var dow = ( ( (CC/4)-2*CC-1) + ((5*year/4)) + ((26*(month+1)/10)) + date ) % 7;
+        }
     }
+
+   feMale();
+    
 }
