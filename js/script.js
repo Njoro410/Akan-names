@@ -65,7 +65,49 @@ function findAkan() {
         }
         feMale();
     }
-    
+    if (genn === "Male") {
+        function male() {
+            var d = dow.toFixed();
+            var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+            switch (d) {
+                case '2':
+                    alert(male[0]);
+                    break;
+            }
+            switch (d) {
+                case '3':
+                    alert(male[1]);
+                    break;
+            }
+            switch (d) {
+                case '4':
+                    alert(male[2]);
+                    break;
+            }
+            switch (d) {
+                case '5':
+                    alert(male[3]);
+                    break;
+            }
+            switch (d) {
+                case '6':
+                    alert(male[4]);
+                    break;
+            }
+            switch (d) {
+                case '0':
+                    alert(male[5]);
+                    break;
+            }
+            switch (d) {
+                case '1':
+                    alert(male[6]);
+                    break;
+            }
+        }
+
+        male();
+    }
     
     
     
