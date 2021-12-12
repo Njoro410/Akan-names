@@ -1,4 +1,16 @@
-
+.container-fluid {
+    background-image: url(../assets/images/kente.jpg);
+}
+.container {
+    background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
 .col-sm-12 {
     display: flex;
     justify-content: center;
