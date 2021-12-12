@@ -8,10 +8,13 @@ function findAkan() {
 
 
     if (date <= 0 || date > 31) {
-        alert("Put a valid date");
-    };
-    if (month <= 0 || month > 12) {
-        alert("put a valid month")
+        alert("Please Input a Valid Date");
+        return;
+        
+    }
+    else if (month <= 0 || month > 12) {
+        alert("Please Input a valid Month")
+        return;
     };
 
     var dd = parseInt(date);
@@ -28,35 +31,33 @@ function findAkan() {
             var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
             switch (d) {
                 case '2':
-                    alert(female[0]);
+                    alert("Your Akan name is: "+female[0]);
                     break;
             
                 case '3':
-                    alert(female[1]);
+                    alert("Your Akan name is: "+female[1]);
                     break;
 
                 case '4':
-                    alert(female[2]);
+                    alert("Your Akan name is: "+female[2]);
                     break;
 
                 case '5':
-                    alert(female[3]);
+                    alert("Your Akan name is: "+female[3]);
                     break;
 
                 case '6':
-                    alert(female[4]);
+                    alert("Your Akan name is: "+female[4]);
                     break;
 
                 case '0':
-                    alert(female[5]);
+                    alert("Your Akan name is: "+female[5]);
                     break;
 
                 case '1':
-                    alert(female[6]);
+                    alert("Your Akan name is: "+female[6]);
                     break;
             }
-            
-
         }
         feMale();
     }
@@ -66,36 +67,40 @@ function findAkan() {
             var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
             switch (d) {
                 case '2':
-                    alert(male[0]);
+                    alert("Your Akan name is: "+male[0]);
                     break;
 
                 case '3':
-                    alert(male[1]);
+                    alert("Your Akan name is: "+male[1]);
                     break;
 
                 case '4':
-                    alert(male[2]);
+                    alert("Your Akan name is: "+male[2]);
                     break;
 
                 case '5':
-                    alert(male[3]);
+                    alert("Your Akan name is: "+male[3]);
                     break;
 
                 case '6':
-                    alert(male[4]);
+                    alert("Your Akan name is: "+male[4]);
                     break;
 
                 case '0':
-                    alert(male[5]);
+                    alert("Your Akan name is: "+male[5]);
                     break;
 
                 case '1':
-                    alert(male[6]);
+                    alert("Your Akan name is: "+male[6]);
                     break;
             }
         }
 
         male();
+    }
+
+    if (genn === "") {
+        alert("please choose a gender");
     }
 
 
