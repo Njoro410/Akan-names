@@ -5,11 +5,9 @@ function findAkan() {
     var month = document.getElementById("month").value;
     var year = document.getElementById("year").value;
 
-    var form = document.getElementById("test");
-    alert(form.elements["test"].value);
-
-    var gender = document.getElementById("gen");
-    alert(form.elements["gender"].value);
+    var sGender = document.getElementById("gen");
+    var genn = sGender.elements["gender"].value;
+    alert(genn);
 
     if (date <= 0 || date > 31) {
         alert("Put a valid date");
