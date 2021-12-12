@@ -18,16 +18,17 @@ function findAkan() {
 
     var dd = parseInt(date);
     var mm = parseInt(month);
-    var yy = parseInt(year);  
+    var y = year.slice(2, 4);
+    var yy = parseInt(y);  
     var c = year.slice(0, 2);
     var cc = parseInt(c);
-    alert(typeof cc);
-    
+    var dow = ( ( (cc/4)-2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd ) % 7;
 
     if (genn === "Female") {
         function feMale() {
             
-            var dow = ( ( (CC/4)-2*CC-1) + ((5*year/4)) + ((26*(month+1)/10)) + date ) % 7;
+            alert(dow.toFixed());
+
         }
     }
 
