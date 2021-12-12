@@ -25,6 +25,9 @@
   background: #d7dbdd;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
+.title {
+    text-align: center;
+}
 .date {
   width: 50px;
 }
@@ -33,6 +36,10 @@
 }
 .year {
   width: 100px;
+}
+.radio {
+    display: flex;
+    justify-content: center;
 }
 .btn {
   width: 100%;
