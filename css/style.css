@@ -1,4 +1,13 @@
+
 .col-sm-12 {
     display: flex;
     justify-content: center;
+}
+.wrapper {
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background: #d7dbdd;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
