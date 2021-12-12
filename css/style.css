@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 .container-fluid {
-    background-image: url(../assets/images/kente.jpg);
+  background-image: url(../assets/images/kente.jpg);
 }
 .container {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     to right top,
     #051937,
     #004d7a,
@@ -10,35 +11,35 @@
     #00bf72,
     #a8eb12
   );
+  font-family: 'Kalam', cursive;
 }
 .col-sm-12 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .wrapper {
-    width: 400px;
-    margin: 60px auto;
-    padding: 30px 20px;
-    border-radius: 10px;
-    background: #d7dbdd;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background: #d7dbdd;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .date {
-    width: 50px;
-  }
-  .month {
-    width: 50px;
-  }
-  .year {
-    width: 100px;
-  }
-  .btn {
-    width: 100%;
-    background: #17202A ;
-  }
-  .btn:hover {
-    color: #17202A ;
-    transition: 0.5s;
-    background: #F4D03F;
-  }
-  
+  width: 50px;
+}
+.month {
+  width: 50px;
+}
+.year {
+  width: 100px;
+}
+.btn {
+  width: 100%;
+  background: #17202a;
+}
+.btn:hover {
+  color: #17202a;
+  transition: 0.5s;
+  background: #f4d03f;
+}
