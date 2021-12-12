@@ -19,7 +19,9 @@ function findAkan() {
     var dd = parseInt(date);
     var mm = parseInt(month);
     var yy = parseInt(year);  
-        
+    var c = year.slice(0, 2);
+    var cc = parseInt(c);
+    alert(typeof cc);
     
 
     if (genn === "Female") {
