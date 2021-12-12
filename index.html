@@ -51,23 +51,34 @@
               <form>
                 <div class="form-date">
                   <label>Date</label>
-                  <input class="date" type="number" name="date" />
+                  <input class="date" type="number" id="date" />
                   <label>Month</label>
-                  <input class="month" type="number" name="month" />
+                  <input class="month" type="number" id="month" />
                   <label>Year</label>
-                  <input class="year" type="number" name="year" min="1900" />
+                  <input class="year" type="number" id="year" min="1900" />
                 </div>
                 <hr />
                 <p class="title">Choose your gender:</p>
-                <div class="radio">
-                  <input type="radio" name="gender" id="male" />
+                <form id="gen">
+                  <input type="radio" name="gender" value="male" />
                   <label for="male">Male</label>
-                  <input type="radio" name="gender" id="female" />
+                  <input type="radio" name="gender" value="female" checked/>
                   <label for="female">Female</label>
-                </div>
+                </form>
+
+                <form id="test">
+                    <input type="radio" name="test" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="test" value="Female" checked>
+                    <label for="female">Female</label>
+                    
+                </form>
+
+
+
                 <hr />
                 <div class="col text-center">
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" onclick="findAkan()" class="btn btn-primary">
                     Find Akan
                   </button>
                 </div>
