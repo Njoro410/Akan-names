@@ -3,6 +3,8 @@ Project Description: This web application is designed to provide its user with a
 Author:
     -Brian Njoroge.
     -Web development student.
+Link to gh pages:
+    -https://njoro410.github.io/Akan-names/
 Setup Information:
     -An internet connection.
     -A java script is executed but within the program.
