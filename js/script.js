@@ -20,7 +20,7 @@ function findAkan() {
 
     var dd = parseInt(date);
     var mm = parseInt(month);
-    var y = year.slice(2, 4);
+    var y = year.slice(2, 5);
     var yy = parseInt(y);
     var c = year.slice(0, 2);
     var cc = parseInt(c);
